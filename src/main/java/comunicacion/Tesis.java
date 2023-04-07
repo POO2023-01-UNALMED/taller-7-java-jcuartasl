@@ -50,11 +50,11 @@ public class Tesis extends Escrito{
 
 	//METHODS
 	
-	int palabrasTotales(int i) {
+	public int palabrasTotales(int i) {
 		return i*factor*getPaginas();
 	}
 	
-	String interpretacion() {
+	public String interpretacion() {
 		return interpretacion;
 	}
 	public String toString() {
